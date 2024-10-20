@@ -1,0 +1,58 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(30deg,yellow 0%,green 25%,blue 75%);
+    margin: 0;
+    padding: 0;
+    display:flexbox;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+p {
+    color: white;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-weight: 300;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+    font-size: 100px;
+}
+#comeBack {
+    background-color: transparent;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .55s ease;
+}
+
+#comeBack:hover {
+    background-color: transparent;
+    border: 2px solid #333;
+    background:linear-gradient(30deg,blue 0%,green 25%,yellow 75%);
+    transform: translateY(-2px);
+}
+.copy{
+    position: absolute;
+    color: black;
+    align-items: center;
+    margin-top: 186px;
+    margin-left: 100px;
+}
+.copy p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace ,serif;
+    color: azure;
+    text-shadow: black;
+}

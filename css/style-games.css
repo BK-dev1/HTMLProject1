@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+    list-style: none;
+    text-decoration: none;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(245.65deg, rgb(43, 41, 41) 0%, rgb(15, 15, 15) 28.53%, black 75.52%);
+    background-size: cover;
+    background-position: center;
+} 
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    width: 150px;
+    height: auto;
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
+}
+
+nav li a:hover {
+    border-bottom: 2px solid white;
+}
+
+.game-section {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Bungee Spice', sans-serif;
+}
+.game-section h2{
+    margin: 40px;
+    margin-bottom: 50px;
+    color: white;
+    padding: 10px;
+    background-color: tomato;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.game-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.game-photos img {
+    width: 90%;
+    height: 400px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:linear-gradient(right,white,grey,blue);
+    transform: translateZ(0);
+    transition:  all 1s ease-in-out;
+}
+
+.game-photos img:hover {
+    transform: translateY(-10%);
+    transform: translateZ(10%);
+}
+
+.game-photos a {
+    display: block;
+    position: relative;
+}
+
+.game-photos h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin:0;
+    padding: 0.5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    background:linear-gradient(245.65deg, rgb(141, 64, 64) 0%,rgb(167, 46, 46) 28.53%, rgb(165, 39, 39) 75.52%);
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #4b4b4b;
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background-color: #2d2d2d;
+  }
+  ::-webkit-scrollbar-corner {
+    background-color: #2d2d2d;
+  }
+  
+  
